@@ -1,0 +1,51 @@
+.services-contant-data {
+  background-color: black;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.services-contant-data .service-heading {
+  margin: 20px;
+  padding: 10px;
+}
+.services-contant-data .service-heading h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.services-contant-data .service-heading p {
+  font-size: 16px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.services {
+  background: white;
+  margin: 10px;
+  height: 200px;
+}
+.services-contant {
+  padding: 10px;
+  display: flex;
+}
+.services-contant .service-icon {
+  display: flex;
+}
+.services-contant .service-para h1 {
+  font-size: 22px;
+  color: darkblue;
+  font-family: "Roboto", sans-serif;
+}
+.services-contant .service-para p {
+  font-size: 15px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+.services-contant img {
+  width: 60px;
+  height: 60px;
+  padding: 8px;
+}

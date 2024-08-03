@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 100px;
+}
+.logo img {
+  border-radius: 50%;
+  width: 100%;
+}
+.main-navbar {
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.main-navbar nav {
+  display: grid;
+  grid-template-columns: 2fr 10fr 3fr 1fr 0rem;
+  width: 95%;
+  margin: 30px auto;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.main-navbar .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.nav-links li a {
+  margin: 10px 7px;
+  padding: 6px;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.btn button {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  color: #000;
+  border-radius: 10px;
+}
+.btn button a {
+  text-decoration: none;
+  color: #000;
+  margin: auto 8px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.btn button a span {
+  margin: auto 10px;
+}
+.menu {
+  border-bottom: 1px solid #fff;
+  color: orange;
+}
+hr {
+  color: orange;
+  width: 70%;
+}
+.menu-icon span {
+  color: #fff;
+  display: none;
+  font-size: 30px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.navbackground {
+  background-color: #000;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1000px) {
+  .nav-btn {
+    display: none;
+  }
+  .main-navbar nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+  }
+}
+@media screen and (max-width: 779px) {
+  .menu-icon span {
+    display: block;
+    position: absolute;
+    right: 30px;
+  }
+
+  .main-navbar .nav-links li {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .main-navbar .nav-btn {
+    display: none;
+  }
+  .main-navbar .nav-links {
+    position: fixed;
+    display: block;
+    right: 10px;
+    top: 120px;
+    gap: 10px;
+  }
+  .mobile-menu-link {
+    position: relative;
+    z-index: 99;
+  }
+  .mobile-menu-link {
+    width: 300px;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+  }
+
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
+  }
+}

@@ -1,0 +1,15 @@
+.counter {
+  display: flex;
+}
+.counter .counter-contant h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.counter .counter-contant {
+  margin: auto 20px;
+}
+.counter .counter-contant h1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+}

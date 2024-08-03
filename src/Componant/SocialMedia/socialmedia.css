@@ -1,0 +1,39 @@
+.social-contant {
+  display: flex;
+  float: left;
+}
+.social-media {
+  text-align: center;
+  margin-top: 70px;
+}
+.social-media h1 {
+  padding: 20px;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  color: darkblue;
+  font-weight: 900;
+}
+.social-media h3 {
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: darkblue;
+  font-weight: 600;
+}
+.social-media h3 a {
+  text-decoration: none;
+  color: darkblue;
+}
+.social-media .container {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: masonry;
+  text-align: center;
+}
+.social-media .container .social-contant:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+  grid-template-rows: masonry;
+}

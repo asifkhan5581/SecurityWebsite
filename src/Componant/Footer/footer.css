@@ -1,0 +1,65 @@
+footer {
+  background-color: darkblue;
+  padding: 50px;
+}
+.footer-contant h3 {
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.footer-contant p {
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+.footer-contant span {
+  font-size: 28px;
+  margin: 5px;
+}
+.footer-contant .fac {
+  color: blue;
+}
+.footer-contant .yout {
+  color: orangered;
+}
+.footer-contant .inst {
+  color: rgb(111, 2, 2);
+}
+.footer-contant .tiw {
+  color: rgb(0, 221, 255);
+}
+.list-data ul {
+  list-style: none;
+}
+.list-data h3 {
+  font-size: 25px;
+  color: white;
+}
+.list-data ul li {
+  color: white;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.footer-about h3 {
+  font-size: 25px;
+  color: white;
+}
+.footer-about p {
+  color: white;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.footer-about .footer-para {
+  font-size: 18px;
+  color: white;
+  margin: 40px 0;
+}
+.footer-about .footer-button button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  background-color: white;
+  font-weight: 500;
+}

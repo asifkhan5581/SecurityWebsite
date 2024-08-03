@@ -1,0 +1,41 @@
+.about-hss {
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  right: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.container .about-image {
+  width: 400px;
+  box-shadow: -18px 15px 0px black;
+}
+.container .about-image img {
+  width: 100%;
+}
+.container .about-contant {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .about-contant h1 {
+  font-size: 28px;
+  padding: 10px;
+  color: darkblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.container .about-contant p {
+  font-size: 18px;
+  padding: 10px;
+
+  font-family: "Roboto", sans-serif;
+}
