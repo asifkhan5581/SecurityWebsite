@@ -111,16 +111,17 @@ hr {
   .main-navbar .nav-links {
     position: fixed;
     display: block;
-    right: 10px;
+    right: -155px;
     top: 120px;
     gap: 10px;
   }
   .mobile-menu-link {
-    position: relative;
+    position: absolute;
+    left: 100px;
     z-index: 99;
   }
   .mobile-menu-link {
-    width: 300px;
+    width: 350px;
     padding-left: 3rem;
     transition: all 2s linear;
     transform-origin: top;
@@ -130,5 +131,10 @@ hr {
 
   .mobile-menu-link ul li:first-child {
     transition-delay: 0.2s;
+  }
+  .logo img {
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 20px;
   }
 }
