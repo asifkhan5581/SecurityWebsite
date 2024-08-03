@@ -1,5 +1,5 @@
 {
-  "homepage": "https://asifkhan5581.github.io/SecurityWebsite/index.html",
+  "homepage": "https://asifkhan5581.github.io/SecurityWebsite/",
   "name": "project-7",
   "private": true,
   "version": "0.0.0",
@@ -16,6 +16,7 @@
     "@material/image-list": "^14.0.0",
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.2",
+    "build": "^0.1.4",
     "react": "^18.2.0",
     "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
